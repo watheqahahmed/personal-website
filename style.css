@@ -15,24 +15,6 @@
   padding: 5;
 }
 
-/* body { */
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-  /* background: linear-gradient(135deg, #e3f2fd, #e6f0f4); */
-  /* color: var(--text-light); */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: flex-start; */
-  /* min-height: 100vh; */
-  /* line-height: 1.8; */
-  /* font-size: 16px; */
-  /* padding: 0; */
-  /* margin: 0; */
-  /* transition: background 0.3s ease, color 0.3s ease; */
-  /* background-attachment: fixed; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-/* } */
 body {    
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* خلفية وردية لطيفة تغطي كامل الصفحة */
