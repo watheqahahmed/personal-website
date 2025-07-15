@@ -1,93 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Watheqa Ahmed Hael Saif - Digital ID Card</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watheqa Ahmed - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body>
+<body id="top">
 
-  <!-- Header Section -->
-  <header>
-    <nav>
-      <ul class="navbar">
-        <li><a href="#bio">Bio</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="profile">
-      <img src="1.jpg" alt="Profile Picture" class="profile-img" />
-      <p id="bio">Hi! I'm Watheqa Ahmed Hael Saif, a passionate web developer eager to create stunning and responsive websites!</p>
-    </div>
-  </header>
+  <!-- Toggle Theme & Hamburger -->
+  <input type="checkbox" id="toggle-theme" hidden>
+  <input type="checkbox" id="menu-toggle" hidden>
 
-  <!-- Main Section -->
-  <main>
+  <div class="page">
+    <!-- Theme Switcher -->
+    <label for="toggle-theme" class="theme-switch">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+    </label>
+
+    <!-- Header / Navigation -->
+
+<header class="navbar">
+  <div class="logo">Watheqa</div>
+  <label for="menu-toggle" class="hamburger"><i class="fas fa-bars"></i></label>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#bio"><i class="fas fa-user"></i> Bio</a></li>
+      <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+      <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+    <!-- Bio Section -->
+    <section id="bio" class="bio">
+      <img src="profile.jpg" alt="Profile" class="bio-img">
+      <div class="bio-text">
+        <h2>Hello, I'm Watheqa Ahmed</h2>
+        <p>A passionate web developer who loves building responsive and elegant websites.</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
     <section id="skills">
       <h2>My Skills</h2>
       <ul>
         <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+        <li>CSS (Flexbox, Grid)</li>
+        <li>Responsive Design</li>
         <li>Git & GitHub</li>
-        <!-- Add more as needed -->
       </ul>
     </section>
 
+    <!-- Portfolio -->
     <section id="portfolio">
-      <h2>My Portfolio</h2>
-      <p>Here are some of my projects:</p>
+      <h2>Portfolio</h2>
+      <p>Here are some of my recent works:</p>
       <ul>
-        <li>Project 1 </li>
-        <li>Project 2 </li>
-        <li>Project 3 </li>
-        <!-- Add more -->
+        <li>Portfolio Website</li>
+        <li>Landing Page</li>
+        <li>Blog Template</li>
       </ul>
     </section>
 
+    <!-- Certificates -->
     <section id="certificates">
-  <h2>الشهادات والدورات</h2>
-  <ul>
-    <li>دورة HTML و CSS - أكاديمية حسوب</li>
-    <li>شهادة JavaScript الأساسية - منصة مهارة تك</li>
-    <li>شهادة تطوير واجهات أمامية - Coursera</li>
-  </ul>
-</section>
+      <h2>Certificates</h2>
+      <ul>
+        <li>HTML & CSS - Hsoub Academy</li>
+        <li>JavaScript Basics - Maharat Tech</li>
+        <li>Frontend Development - Coursera</li>
+      </ul>
+    </section>
 
-<section id="testimonials">
-  <h2>آراء وتوصيات</h2>
-  <blockquote>
-    "طالبة مبدعة وملتزمة، عملت على مشاريع متميزة خلال التدريب الصيفي."  أ. أحمد
-  </blockquote>
-  <blockquote>
-    "واثقة تتقن التصميم والتفاصيل الدقيقة في الواجهات الأمامية."  م. سارة
-  </blockquote>
-</section>
- 
-<section id="cv">
-  <h2>السيرة الذاتية</h2>
-  <a href="resume.pdf" download class="cv-button">تحميل السيرة الذاتية</a>
-</section>
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <blockquote>"Creative and detail-oriented. Great work on front-end projects." – Eng. Sarah</blockquote>
+      <blockquote>"Reliable and quick learner, delivered projects on time." – Mentor Ahmed</blockquote>
+    </section>
 
-<!-- زر العودة للأعلى -->
-<a href="#top" class="scroll-top">⬆ أعلى</a>
+    <!-- Resume Download -->
+    <section id="cv">
+      <h2>Resume</h2>
+      <a href="resume.pdf" class="cv-button" download><i class="fas fa-download"></i> Download CV</a>
+    </section>
 
-<!-- مكان تضعين فيه id أعلى الصفحة -->
-<body id="top">
+    <!-- Contact / Footer -->
+    <footer id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:watheqa@gmail.com">watheqa@gmail.com</a></p>
+      <p>
+        <a href="#"><i class="fab fa-github"></i> GitHub</a> |
+        <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </p>
+    </footer>
 
-  </main>
-
-  <!-- Footer Section -->
-  <footer id="contact">
-    <p>Contact me at: watheqa.ahmed@gmail.com</p>
-    <p>
-      <a href="" target="_blank">GitHub</a> |
-      <a href="" target="_blank">LinkedIn</a>
-    </p>
-  </footer>
-
+    <!-- Scroll to Top -->
+    <a href="#top" class="scroll-top" title="Back to Top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
 </body>
 </html>
